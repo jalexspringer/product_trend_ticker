@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-LABEL maintainer="alex.springer@impact.com" \
+LABEL maintainer="alexspringer@pm.me" \
       version="1.0.0" \
       description="Trending Product Categories Microsite"
 

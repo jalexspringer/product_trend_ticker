@@ -74,7 +74,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Impact Trending Products",
+    title="Peak Period Trending Products",
     description="Real-time product category trends dashboard",
     version="1.0.0",
     lifespan=lifespan,

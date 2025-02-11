@@ -5,6 +5,17 @@
 
 A real-time analytics dashboard that tracks and visualizes product category trends across the impact.com network. Built with FastAPI and HTMX for efficient, modern web development practices.
 
+Check it out!
+
+```bash
+# Clone repository
+git clone https://github.com/jalexspringer/product_trend_ticker
+cd product-trend-ticker
+
+# Start with Docker
+docker-compose up --build
+```
+
 ![Homepage](img/screenshot.png)
 
 ## Technology Stack
@@ -59,7 +70,7 @@ cd product_trend_ticker
 
 2. Install dependencies:
 ```bash
-uv pip install -e ".[dev]"
+uv sync && uv venv"
 ```
 
 3. Run the development server:
@@ -103,7 +114,7 @@ pre-commit install
 ### Local Development
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/jalexspringer/product_trend_ticker
 cd product-trend-ticker
 
 # Start with Docker
