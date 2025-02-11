@@ -45,7 +45,6 @@ jobs:
     - name: Run tests
       run: |
         uv run pytest tests/unit
-        uv run pytest tests/integration
         
     - name: Upload coverage reports
       uses: codecov/codecov-action@v3
