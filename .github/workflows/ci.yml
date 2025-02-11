@@ -44,10 +44,10 @@ jobs:
         
     - name: Run tests
       run: |
-        uv run pytest tests/unit
+        uv run pytest  --cov-branch --cov-report=xml tests/unit
         
     - name: Upload coverage reports
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v5
 
   # deploy:
   #   needs: test
