@@ -1,0 +1,64 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: Install uv
+      run: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+        
+    - name: Install dependencies
+      run: |
+        uv pip install -e ".[dev]"
+        
+    - name: Run linting
+      run: |
+        uv run ruff check .
+        uv run ruff format --check .
+        
+    - name: Type checking
+      run: |
+        uv run mypy app
+        
+    - name: Run tests
+      run: |
+        uv run pytest tests/unit
+        uv run pytest tests/integration
+        
+    - name: Upload coverage reports
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build and push Docker image
+      run: |
+        docker build -t product-trend-ticker .
+        # Add your Docker push commands here
+        
+    # Add your deployment steps here

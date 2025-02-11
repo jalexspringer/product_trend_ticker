@@ -44,6 +44,56 @@ A real-time analytics dashboard that tracks and visualizes product category tren
 ### Prerequisites
 - Python 3.12+
 - Docker & Docker Compose
+- UV package manager (`curl -LsSf https://astral.sh/uv/install.sh | sh`)
+
+### Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/product_trend_ticker.git
+cd product_trend_ticker
+```
+
+2. Install dependencies:
+```bash
+uv pip install -e ".[dev]"
+```
+
+3. Run the development server:
+```bash
+uv run fastapi run src/app/main.py
+```
+
+### Testing
+
+The project uses pytest for testing. Run tests with:
+
+```bash
+uv run pytest
+```
+
+Test structure:
+```
+tests/
+├── unit/              # Unit tests
+│   ├── api/          # API endpoint tests
+│   ├── database/     # Database and cache tests
+│   └── utils/        # Utility function tests
+├── integration/       # Integration tests
+└── e2e/              # End-to-end tests
+```
+
+### Code Quality
+
+Pre-commit hooks are configured for:
+- pytest: Run tests
+- ruff: Code formatting and linting
+- mypy: Type checking
+
+Install pre-commit hooks:
+```bash
+pre-commit install
+```
 
 ## Deployment Options
 
