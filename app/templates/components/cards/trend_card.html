@@ -1,0 +1,21 @@
+<div class="trend-card card">
+    <!-- Header Section -->
+    <div class="flex justify-between items-start py-1">
+        <!-- Product Info -->
+        <div class="max-w-[60%]">
+            <h3 class="heading-md line-clamp-2">{{ trend.product_category_level_3 }}</h3>
+            <p class="text-small line-clamp-1 mt-1">{{ trend.product_category_level_1 }} <br> {{ trend.product_category_level_2 }}</p>
+        </div>
+        
+        <!-- Revenue Info -->
+        <div class="flex flex-col items-end">
+            <div class="value-large-light {% if trend.revenue_weekly_change > 0 %}positive{% else %}negative{% endif %}">
+                {{ "%.2f"|format(trend.revenue_weekly_change * 100) }}%
+            </div>
+            <div class="revenue-label">7 Day Revenue</div>
+        </div>
+    </div>
+
+    <!-- Metrics Section -->
+    {% include "components/cards/trend_metrics.html" %}
+</div> 

@@ -1,0 +1,187 @@
+<!-- templates/index.html -->
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<header class="py-6 sticky top-0 bg-gray-50 z-20">
+    <div class="flex flex-col lg:flex-row gap-16">
+        <!-- Left Column - Main Content -->
+        <div class="lg:w-1/2">
+            <div class="p-6">
+                <!-- Logo and Title -->
+                <div class="flex items-center gap-3 mb-6">
+                    <a href="https://www.impact.com">
+                        <img src="/static/logo-wide.png" alt="Logo" class="h-6">
+                    </a>
+                </div>
+                <h1 class="heading-xl mb-3 flex items-center gap-4">
+                    Trending Categories - Peak Period 2024
+                    <button
+                        class="share-button px-3 py-1 text-sm border border-gray-300 rounded-full hover:bg-gray-100 transition-colors flex items-center gap-2"
+                        hx-get="/share-modal"
+                        hx-target="#shareModal"
+                        hx-swap="outerHTML"
+                        onclick="document.getElementById('shareModal').classList.remove('hidden')"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
+                        </svg>
+                        Share
+                    </button>
+                </h1>
+
+                <!-- Description -->
+                <p class="text-body mb-8 max-w-[350px]">
+                    Track the latest trends in product categories across the impact.com network of partners and brands during the peak shopping period of 2024. <span class="hide-mobile">This dashboard provides real-time insights into which categories are experiencing growth or decline, helping brands and partners make data-driven decisions for their partnership strategies. Best viewed on desktop.</span>
+                    <br><br><span class="text-red-500 hide-mobile">This is a limited beta product - category data is not currently available for all countries.</span>
+                </p>
+
+                <!-- Filters -->
+                <div class="flex gap-4 max-w-xl">
+                    <div class="w-1/2">
+                        <label for="categoryFilter" class="text-small font-medium mb-1 block">Category Filter</label>
+                        <select id="categoryFilter"
+                            class="block w-full px-2 py-1.5 text-sm border border-gray-300 rounded-md"
+                            name="category" 
+                            hx-get="/api/trends/filter" 
+                            hx-target="#trendsContainer" 
+                            hx-trigger="change"
+                            hx-include="#countryFilter">
+                            <option value="all" selected>All Categories</option>
+                            <option hx-get="/api/trends/categories" hx-trigger="load" hx-target="this" hx-swap="outerHTML">
+                                Loading categories...
+                            </option>
+                        </select>
+                    </div>
+                    <div class="w-1/2">
+                        <label for="countryFilter" class="text-small font-medium mb-1 block">Country</label>
+                        <select id="countryFilter"
+                            class="block w-full px-2 py-1.5 text-sm border border-gray-300 rounded-md"
+                            name="country" 
+                            hx-get="/api/trends/filter" 
+                            hx-target="#trendsContainer" 
+                            hx-trigger="change"
+                            hx-include="#categoryFilter">
+                            <option hx-get="/api/trends/countries" hx-trigger="load" hx-target="this" hx-swap="outerHTML">
+                                Loading countries...
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column - CTA (desktop only) -->
+        <div class="hidden lg:block lg:w-1/2">
+            <div class="card cta-container p-8">
+                <div class="flex">
+                    <!-- Text Column -->
+                    <div class="w-[70%] pr-6">
+                        <h2 class="heading-xl mb-3">One platform.<br>All partnerships.</h2>
+                        <p class="text-body mb-6 max-w-[350px]">
+                            Partnerships can be your company's fastest engine of growth. They connect brands with consumers in the most effective and authentic way possible.
+                        </p>
+                        <div class="flex flex-col gap-2">
+                            <a href="https://impact.com/request-a-demo-for-brands/?utm_source=peak-trends-by-impact.com&utm_medium=referral&utm_content=request-demo&utm_campaign=trends-home-page" 
+                            class="px-6 py-1.5 border border-[#ee4c4c] text-[#ee4c4c] rounded-full text-sm hover:bg-purple-500 hover:text-white hover:border-purple-500 transition-colors text-center font-medium w-fit">
+                                Brand Demo
+                            </a>
+                            <a href="https://app.impact.com/signup/none/create-new-mediapartner-account-flow.ihtml?utm_source=peak-trends-by-impact.com&utm_medium=referral&utm_content=sign-up&utm_campaign=trends-home-page" 
+                               class="px-6 py-1.5 border border-[#ee4c4c] text-[#ee4c4c] rounded-full text-sm hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors text-center font-medium w-fit">
+                                Partner Sign Up
+                            </a>
+                            <a href="https://app.impact.com/login.user?utm_source=peak-trends-by-impact.com&utm_medium=referral&utm_content=login&utm_campaign=trends-home-page" 
+                               class="px-6 py-1.5 border border-[#ee4c4c] text-[#ee4c4c] rounded-full text-sm hover:bg-purple-500 hover:text-white hover:border-purple-500 transition-colors text-center font-medium w-fit">
+                                Already an impact.com user?
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Image Column -->
+                    <div class="w-[30%] overflow-hidden flex items-center justify-center">
+                        <div class="image-slider" style="height: 280px; max-width: 740px;">
+                            <div class="slider-container">
+                                <img src="https://impact.com/wp-content/uploads/2024/07/Home-Hero-1.webp" 
+                                     class="object-cover h-full w-full opacity-65 slider-image" 
+                                     alt="Impact.com partnerships"
+                                     loading="eager"
+                                     decoding="async">
+                                <img src="https://impact.com/wp-content/uploads/2024/07/Image-2.webp" 
+                                     class="object-cover h-full w-full opacity-65 slider-image" 
+                                     alt="Impact.com partnerships"
+                                     loading="eager"
+                                     decoding="async">
+                                <img src="https://impact.com/wp-content/uploads/2024/07/Image-3.webp" 
+                                     class="object-cover h-full w-full opacity-65 slider-image" 
+                                     alt="Impact.com partnerships"
+                                     loading="eager"
+                                     decoding="async">
+                                <img src="https://impact.com/wp-content/uploads/2024/07/Home-Hero-1.webp" 
+                                     class="object-cover h-full w-full opacity-65 slider-image" 
+                                     alt="Impact.com partnerships"
+                                     loading="eager"
+                                     decoding="async">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+.image-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    animation: slideShow 20s infinite;
+}
+
+.slider-image {
+    width: 25%;
+    height: 100%;
+}
+
+@keyframes slideShow {
+    0% { transform: translateX(0); }
+    23% { transform: translateX(0); }
+    25% { transform: translateX(-25%); }
+    48% { transform: translateX(-25%); }
+    50% { transform: translateX(-50%); }
+    73% { transform: translateX(-50%); }
+    75% { transform: translateX(-75%); }
+    98% { transform: translateX(-75%); }
+    100% { transform: translateX(0); }
+}
+</style>
+
+<!-- Main Content -->
+<main class="flex-1 py-6">
+    <div id="trendsContainer" 
+         class="grid grid-cols-1 lg:grid-cols-2 gap-6 h-full" 
+         hx-get="/api/trends/filter?category=all&country=US" 
+         hx-trigger="load, every 300s">
+        <!-- Initial loading state -->
+        <div class="col-span-2 text-center py-12">
+            <div class="animate-pulse">
+                <p class="text-body">Loading trends data...</p>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+
+{% block modal %}
+<div id="shareModal" 
+    class="modal-container hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center"
+    onclick="this.classList.add('hidden')"
+>
+    <!-- Modal content will be loaded here -->
+</div>
+{% endblock %}

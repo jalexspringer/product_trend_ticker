@@ -1,0 +1,110 @@
+<!-- Share Modal Template -->
+<div id="shareModal" class="modal-container fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center" onclick="this.classList.add('hidden')">
+    <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4 relative" onclick="event.stopPropagation()">
+        <!-- Close button -->
+        <button 
+            class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 transition-colors"
+            onclick="document.getElementById('shareModal').classList.add('hidden')"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        <!-- Modal content -->
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Share impact.com Category Trends</h2>
+        <p class="text-gray-600 mb-8">Share these retail category insights with your network:</p>
+
+        <!-- Social sharing buttons -->
+        <div class="grid grid-cols-3 gap-4 mb-8">
+            <!-- Generic Share Button -->
+            <button 
+                onclick="handleShare()"
+                class="flex items-center justify-center gap-2 py-2 px-4 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
+                </svg>
+                <span class="font-medium">Share</span>
+            </button>
+
+            <!-- Facebook -->
+            <a 
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.peak-trends-by-impact.com"
+                target="_blank"
+                class="flex items-center justify-center"
+            >
+                <img src="/static/facebook-share-button-icon.svg" alt="Share on Facebook" class="h-10">
+            </a>
+
+            <!-- LinkedIn -->
+            <a 
+                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.peak-trends-by-impact.com"
+                target="_blank"
+                class="flex items-center justify-center"
+            >
+                <img src="/static/linkedin-share-button-icon.svg" alt="Share on LinkedIn" class="h-10">
+            </a>
+        </div>
+
+        <!-- Copy Link -->
+        <div class="relative">
+            <input 
+                type="text" 
+                value="https://www.peak-trends-by-impact.com"
+                readonly
+                class="w-full px-4 py-3 pr-24 bg-gray-50 border border-gray-200 rounded-lg text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                id="shareUrl"
+            >
+            <button
+                class="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-gray-900 text-white rounded-md hover:bg-gray-700 transition-colors text-sm font-medium"
+                onclick="copyShareUrl()"
+            >
+                Copy
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+function copyShareUrl() {
+    const urlInput = document.getElementById('shareUrl');
+    urlInput.select();
+    document.execCommand('copy');
+    
+    // Visual feedback
+    const button = urlInput.nextElementSibling;
+    const originalText = button.textContent;
+    button.textContent = 'Copied!';
+    button.classList.add('bg-green-600');
+    setTimeout(() => {
+        button.textContent = originalText;
+        button.classList.remove('bg-green-600');
+    }, 2000);
+}
+
+function handleShare() {
+    // Check if the Web Share API is available
+    if (navigator.share) {
+        navigator.share({
+            title: 'impact Affiliate and Creator Trending Categories',
+            text: 'Check out these trending retail categories from affiliate and influencer partners during the peak shopping period!',
+            url: 'https://www.peak-trends-by-impact.com'
+        })
+        .catch(error => {
+            console.log('Error sharing:', error);
+            copyShareUrl(); // Fallback to copying URL
+        });
+    } else {
+        // Fallback for browsers that don't support Web Share API
+        copyShareUrl();
+    }
+}
+
+// Add keyboard event listener for Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        document.getElementById('shareModal').classList.add('hidden');
+    }
+});
+</script> 

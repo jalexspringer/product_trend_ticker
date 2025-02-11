@@ -1,0 +1,30 @@
+<div class="mt-auto">
+    <div class="grid grid-cols-2 gap-3">
+        <div class="flex flex-col gap-1">
+            <span class="text-small">Revenue 24h</span>
+            <span class="value-compact {% if trend.revenue_daily_change > 0 %}positive{% else %}negative{% endif %}">
+                {{ "%.2f"|format(trend.revenue_daily_change * 100) }}%
+            </span>
+        </div>
+        <div class="flex flex-col gap-1">
+            <span class="text-small">Revenue 30d</span>
+            <span class="value-compact {% if trend.revenue_monthly_change > 0 %}positive{% else %}negative{% endif %}">
+                {{ "%.2f"|format(trend.revenue_monthly_change * 100) }}%
+            </span>
+        </div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mt-3">
+        <div class="flex flex-col gap-1">
+            <span class="text-small">Commission 24h</span>
+            <span class="value-compact {% if trend.commission_daily_change > 0 %}positive{% else %}negative{% endif %}">
+                {{ "%.2f"|format(trend.commission_daily_change * 100) }}%
+            </span>
+        </div>
+        <div class="flex flex-col gap-1">
+            <span class="text-small">Commission 7d</span>
+            <span class="value-compact {% if trend.commission_weekly_change > 0 %}positive{% else %}negative{% endif %}">
+                {{ "%.2f"|format(trend.commission_weekly_change * 100) }}%
+            </span>
+        </div>
+    </div>
+</div> 

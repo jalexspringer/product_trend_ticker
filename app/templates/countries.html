@@ -1,0 +1,3 @@
+{% for country in countries %}
+    <option value="{{ country }}" {% if country == 'US' %}selected{% endif %}>{{ country }}</option>
+{% endfor %} 

@@ -1,0 +1,31 @@
+<!-- Gainers -->
+<div class="lg:col-span-1">
+    <h2 class="heading-lg text-green-600">Growing Categories ↑</h2>
+    <div id="gainersGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {% if gainers %}
+            {% for trend in gainers %}
+                {% include "components/cards/trend_card.html" %}
+            {% endfor %}
+        {% else %}
+            <div class="card p-6 sm:col-span-2">
+                <p class="text-body text-center">No growing categories found in this region at this time</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Losers -->
+<div class="lg:col-span-1">
+    <h2 class="heading-lg text-red-600">Declining Categories ↓</h2>
+    <div id="losersGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {% if losers %}
+            {% for trend in losers %}
+                {% include "components/cards/trend_card.html" %}
+            {% endfor %}
+        {% else %}
+            <div class="card p-6 sm:col-span-2">
+                <p class="text-body text-center">No declining categories found in this region at this time</p>
+            </div>
+        {% endif %}
+    </div>
+</div> 

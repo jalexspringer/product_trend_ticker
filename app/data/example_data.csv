@@ -1,0 +1,381 @@
+event_date,campaign_country,product_category_level_1,product_category_level_2,product_category_level_3,revenue_daily_change,revenue_weekly_change,revenue_monthly_change,commission_daily_change,commission_weekly_change,commission_monthly_change
+2025-02-09,UK,electronics,electronics accessories,computer components,2.4228,0.0031,0.1391,0.2086,0.0713,0.3007
+2025-02-09,US,electronics,marine electronics,marine electronics,2.2891,0.2192,-0.2482,2.1832,0.184,-0.2792
+2025-02-09,UK,home & garden,lighting,light bulbs,2.1481,0.0651,0.2035,1.4969,0.2107,0.3709
+2025-02-09,AUSTRALIA,home & garden,kitchen & dining,cookware & bakeware,2.0709,0.3256,-0.4652,2.5021,0.564,-0.548
+2025-02-09,US,toys & games,games,board games,1.9276,0.0911,-0.6534,2.8942,-0.3813,-0.5778
+2025-02-09,UK,health & beauty,health care,fitness & nutrition,1.8188,0.2534,-0.0283,1.3812,0.0572,0.0973
+2025-02-09,US,apparel & accessories,"handbags, wallets & cases",wallets & money clips,1.5493,0.2494,-0.4709,1.4682,0.3572,-0.5424
+2025-02-09,AUSTRALIA,luggage & bags,suitcases,suitcases,1.5458,-0.0114,-0.2853,2.3978,-0.0124,-0.3549
+2025-02-09,UK,home & garden,kitchen & dining,kitchen appliances,1.5061,-0.1351,0.0513,0.8961,-0.0757,-0.0345
+2025-02-09,US,apparel & accessories,jewelry,body jewelry,1.4726,0.1254,-0.2979,3.0011,-0.0569,-0.457
+2025-02-09,AUSTRALIA,office supplies,general office supplies,paper products,1.4384,0.1024,0.2016,1.2325,-0.0541,-0.0473
+2025-02-09,AUSTRALIA,vehicles & parts,vehicle parts & accessories,motor vehicle parts,1.2008,-0.5052,-0.1162,1.3481,-0.0686,-0.2449
+2025-02-09,UK,sporting goods,outdoor recreation,boating & water sports,1.1803,0.4062,-0.01,0.2538,0.2281,0.1712
+2025-02-09,US,hardware,"heating, ventilation & air conditioning",vents & flues,1.1733,0.2628,0.4705,1.1076,0.3094,0.0535
+2025-02-09,AUSTRALIA,home & garden,linens & bedding,bedding,0.9402,0.1416,-0.3968,1.3682,0.2533,-0.485
+2025-02-09,UK,home & garden,kitchen & dining,kitchen appliance accessories,0.8095,-0.2266,0.2078,0.3287,0.0058,0.4237
+2025-02-09,US,software,computer software,business & productivity software,0.7894,-0.0257,-0.0968,0.8798,0.0589,-0.2417
+2025-02-09,US,hardware,tools,flashlights & headlamps,0.7578,-0.0859,-0.1436,1.1843,-0.0378,-0.1622
+2025-02-09,UK,health & beauty,personal care,cosmetics,0.75,-0.1898,-0.0353,0.385,-0.1906,-0.0629
+2025-02-09,AUSTRALIA,"food, beverages & tobacco",beverages,alcoholic beverages,0.7449,0.4588,-0.1005,1.3715,1.2685,0.7065
+2025-02-09,AUSTRALIA,apparel & accessories,clothing,baby & toddler clothing,0.6355,-0.0078,-0.4491,0.784,0.199,-0.4685
+2025-02-09,AUSTRALIA,apparel & accessories,shoes,shoes,0.6009,-0.1243,-0.4639,0.6107,-0.1075,-0.5303
+2025-02-09,UK,apparel & accessories,clothing,underwear & socks,0.5709,0.2071,-0.3848,0.5333,0.1009,-0.2514
+2025-02-09,UK,home & garden,kitchen & dining,tableware,0.5691,-0.1483,0.0763,0.2292,-0.1774,0.1376
+2025-02-09,UK,software,computer software,multimedia & design software,0.5563,-0.2344,0.0836,0.6332,-0.1275,0.0903
+2025-02-09,AUSTRALIA,apparel & accessories,clothing,underwear & socks,0.5478,-0.0336,-0.4429,0.484,0.0511,-0.5515
+2025-02-09,UK,media,music & sound recordings,music cds,0.5221,0.0471,-0.3661,0.1037,0.0956,-0.3317
+2025-02-09,US,sporting goods,outdoor recreation,fishing,0.5121,0.071,-0.3787,0.4902,0.0593,-0.4129
+2025-02-09,US,media,sheet music,sheet music,0.4933,0.1621,0.0655,0.4091,0.4838,0.1131
+2025-02-09,US,apparel & accessories,handbag & wallet accessories,keychains,0.4869,-0.1206,-0.0454,0.6239,-0.0611,-0.1218
+2025-02-09,US,apparel & accessories,clothing,clothing,0.4862,-0.0133,-0.5211,0.4328,-0.1565,-0.6058
+2025-02-09,US,furniture,shelving,wall shelves & ledges,0.4832,-0.1543,0.1027,0.766,-0.0695,0.2676
+2025-02-09,US,sporting goods,athletics,american football,0.4782,0.2006,-0.6292,0.9167,0.0877,-0.6627
+2025-02-09,US,office supplies,shipping supplies,packing materials,0.4745,-0.0768,0.3258,0.4302,-0.0576,0.396
+2025-02-09,US,cameras & optics,optics,scopes,0.4718,0.0831,-0.2192,1.0047,0.2426,-0.275
+2025-02-09,US,cameras & optics,photography,lighting & studio,0.4675,-0.3826,-0.4998,0.2436,-0.4003,-0.5849
+2025-02-09,US,hardware,power & electrical supplies,wire terminals & connectors,0.4565,0.0752,0.1201,0.3393,0.0691,0.0975
+2025-02-09,US,home & garden,household supplies,shoe care & tools,0.4415,0.0233,-0.1673,1.4316,0.0638,-0.2343
+2025-02-09,UK,electronics,audio,audio components,0.4162,-0.0745,0.7477,0.4134,-0.0556,0.8011
+2025-02-09,US,furniture,shelving,bookcases & standing shelves,0.4059,0.0183,0.0543,0.515,0.3922,0.2997
+2025-02-09,US,animals & pet supplies,pet supplies,reptile & amphibian supplies,0.4033,-0.0673,-0.0594,0.3383,-0.1948,-0.1488
+2025-02-09,AUSTRALIA,home & garden,kitchen & dining,kitchen appliances,0.3962,0.1998,-0.275,0.8566,0.2895,-0.399
+2025-02-09,US,sporting goods,outdoor recreation,winter sports & activities,0.392,-0.1167,-0.3309,0.9265,-0.1652,-0.355
+2025-02-09,US,home & garden,"flood, fire & gas safety","flood, fire & gas safety",0.3833,0.2173,0.1661,0.2607,0.3017,0.1074
+2025-02-09,US,home & garden,decor,vases,0.3595,-0.0415,0.1101,-0.0417,0.0604,0.0994
+2025-02-09,US,electronics,audio,dj & specialty audio,0.3343,0.0027,0.055,0.2769,0.0306,0.04
+2025-02-09,US,home & garden,decor,seasonal & holiday decorations,0.3341,-0.0042,-0.2951,0.2384,0.0803,-0.3546
+2025-02-09,US,luggage & bags,suitcases,suitcases,0.3325,-0.1618,-0.147,0.3903,-0.2133,-0.2376
+2025-02-09,US,apparel & accessories,clothing,uniforms,0.3222,-0.0728,-0.542,0.41,-0.0446,-0.5476
+2025-02-09,US,home & garden,lawn & garden,outdoor power equipment,0.3214,0.3181,-0.2669,0.5213,0.2139,-0.2822
+2025-02-09,UK,hardware,tools,paint tools,0.3168,0.1252,0.5851,0.2981,0.1865,0.7367
+2025-02-09,US,hardware,tools,cutters,0.3119,-0.0407,-0.0903,0.2471,-0.0716,-0.2297
+2025-02-09,US,home & garden,decor,picture frames,0.3009,-0.0126,-0.3925,0.354,0.0579,-0.5008
+2025-02-09,AUSTRALIA,health & beauty,health care,fitness & nutrition,0.2894,-0.2044,0.2409,0.8734,-0.3581,0.2764
+2025-02-09,US,hardware,hardware accessories,cabinet hardware,0.2834,0.0164,0.4296,1.1276,-0.0544,0.4106
+2025-02-09,US,apparel & accessories,clothing accessories,belts,0.2826,-0.0161,-0.349,0.4707,-0.0528,-0.4026
+2025-02-09,US,apparel & accessories,jewelry,earrings,0.282,0.1387,-0.4379,0.3746,0.1773,-0.4626
+2025-02-09,US,electronics,electronics accessories,computer accessories,0.2764,0.102,-0.12,0.2427,-0.0106,-0.0945
+2025-02-09,US,apparel & accessories,clothing,one-pieces,0.2734,0.0122,-0.4014,0.4738,0.0557,-0.4204
+2025-02-09,US,health & beauty,personal care,ear care,0.2662,0.0759,0.0614,0.0268,0.0391,-0.0632
+2025-02-09,US,furniture,ottomans,ottomans,0.2579,0.0403,0.0758,0.2986,0.0235,0.085
+2025-02-09,US,home & garden,decor,flags & windsocks,0.2491,-0.0839,0.151,0.2171,-0.0681,0.2164
+2025-02-09,UK,media,music & sound recordings,records & lps,0.247,0.1035,-0.1475,0.0311,-0.0155,0.132
+2025-02-09,UK,hardware,building materials,door hardware,0.2455,0.1665,0.2792,0.3513,0.3744,0.4462
+2025-02-09,US,home & garden,kitchen & dining,kitchen appliance accessories,0.2359,0.0114,0.1954,0.2203,0.0205,0.1698
+2025-02-09,US,apparel & accessories,"handbags, wallets & cases",handbags,0.2333,-0.0228,-0.0011,0.2467,0.0554,-0.0836
+2025-02-09,US,health & beauty,health care,medicine & drugs,0.2315,-0.1034,0.1437,3.2997,-0.2577,0.1012
+2025-02-09,US,luggage & bags,luggage accessories,travel pouches,0.2264,0.0168,0.1251,0.2618,0.0278,0.1279
+2025-02-09,US,home & garden,decor,window treatments,0.217,-0.0742,0.1359,0.2291,-0.0533,0.1362
+2025-02-09,US,home & garden,decor,mirrors,0.2156,-0.0376,-0.0889,-0.03,0.0098,-0.4542
+2025-02-09,US,apparel & accessories,clothing accessories,hats,0.2117,-0.0616,-0.1453,0.2919,-0.0895,-0.2152
+2025-02-09,US,hardware,tools,welding guns & plasma cutters,0.2095,-0.0215,0.1376,0.3455,0.0575,0.1564
+2025-02-09,US,mature,weapons,gun care & accessories,0.2051,0.0532,-0.1873,0.2214,0.0746,-0.2318
+2025-02-09,UK,home & garden,kitchen & dining,cookware & bakeware,0.2025,-0.0694,-0.2129,0.0158,0.0738,-0.3655
+2025-02-09,US,arts & entertainment,hobbies & creative arts,arts & crafts,0.1994,-0.0417,-0.0877,0.2301,-0.0603,-0.2243
+2025-02-09,UK,home & garden,plants,indoor & outdoor plants,0.1963,0.1385,0.9351,0.0691,0.1973,0.9132
+2025-02-09,AUSTRALIA,health & beauty,personal care,cosmetics,0.1941,0.0525,-0.5543,-0.0234,0.1083,-0.6585
+2025-02-09,US,hardware,hardware accessories,brackets & reinforcement braces,0.1927,-0.248,0.0798,0.715,-0.3835,0.2709
+2025-02-09,US,apparel & accessories,clothing,swimwear,0.1923,0.0638,0.3485,0.2446,0.0812,0.3618
+2025-02-09,US,business & industrial,retail,money handling,0.191,0.0046,0.1431,0.4689,-0.0279,0.1527
+2025-02-09,US,media,books,books,0.1872,-0.1379,-0.5023,0.1884,-0.125,-0.671
+2025-02-09,US,home & garden,decor,wallpaper,0.1831,0.0136,0.2715,0.1566,0.0076,0.3447
+2025-02-09,US,home & garden,lawn & garden,outdoor living,0.18,-0.0996,-0.2277,-0.022,-0.2182,-0.4698
+2025-02-09,US,cameras & optics,camera & optic accessories,camera parts & accessories,0.1738,0.0103,0.0677,0.1441,0.0209,0.0196
+2025-02-09,US,home & garden,decor,window treatment accessories,0.1737,-0.0801,0.1149,0.0531,-0.0379,-0.0845
+2025-02-09,US,home & garden,kitchen & dining,barware,0.1735,0.1414,0.0429,0.1665,0.1907,-0.024
+2025-02-09,US,home & garden,plants,indoor & outdoor plants,0.1712,0.1931,0.3801,0.008,0.4894,0.1824
+2025-02-09,US,apparel & accessories,clothing accessories,baby & toddler clothing accessories,0.1682,0.0131,-0.2038,0.2961,0.0412,-0.2857
+2025-02-09,US,apparel & accessories,jewelry,watches,0.167,-0.0652,-0.2727,0.1453,0.0042,-0.0518
+2025-02-09,US,hardware,tool accessories,welding accessories,0.1666,0.411,0.2231,0.3082,0.4146,0.2421
+2025-02-09,US,electronics,audio,stage equipment,0.1661,0.0435,0.1882,0.5131,0.028,0.136
+2025-02-09,UK,home & garden,decor,seasonal & holiday decorations,0.164,-0.2902,0.0985,0.0985,-0.3106,0.2114
+2025-02-09,UK,home & garden,lawn & garden,gardening,0.1638,0.0504,0.535,-0.0673,0.1385,0.6272
+2025-02-09,US,arts & entertainment,party & celebration,gift giving,0.1619,-0.0152,-0.3596,0.186,0.3399,-0.3155
+2025-02-09,US,furniture,cabinets & storage,storage cabinets & lockers,0.1616,-0.265,-0.0616,0.4222,-0.0393,-0.0503
+2025-02-09,US,home & garden,decor,artwork,0.1612,0.01,-0.088,0.141,-0.0369,-0.1873
+2025-02-09,AUSTRALIA,home & garden,kitchen & dining,tableware,0.1603,0.0941,-0.2498,0.1226,0.1297,-0.4069
+2025-02-09,US,home & garden,decor,mailboxes,0.1567,0.0726,0.1146,0.3567,0.1163,-0.0371
+2025-02-09,AUSTRALIA,apparel & accessories,clothing,activewear,0.1565,0.3062,0.958,0.2531,0.2024,-0.3593
+2025-02-09,US,hardware,hardware accessories,"chain, wire & rope",0.1489,-0.0287,0.0406,-0.2735,-0.1381,0.2519
+2025-02-09,US,home & garden,lawn & garden,snow removal,0.1441,0.4626,0.0473,0.4528,0.357,-0.0424
+2025-02-09,US,home & garden,decor,slipcovers,0.1427,0.02,0.0002,0.0978,-0.0232,-0.2529
+2025-02-09,AUSTRALIA,software,video game software,video game software,0.1421,-0.0097,-0.2786,-0.3013,0.0841,0.2368
+2025-02-09,US,home & garden,decor,rugs,0.1403,-0.1019,0.0592,0.1516,-0.0256,-0.1892
+2025-02-09,US,arts & entertainment,hobbies & creative arts,model making,0.1402,-0.0737,-0.1269,0.0287,-0.2711,-0.03
+2025-02-09,US,business & industrial,work safety protective gear,safety gloves,0.1394,0.1647,-0.01,0.3082,-0.0142,0.19
+2025-02-09,UK,sporting goods,outdoor recreation,camping & hiking,0.1386,-0.2545,0.1159,-0.0196,-0.235,0.2489
+2025-02-09,US,home & garden,household supplies,pest control,0.1379,0.0071,0.1084,0.2847,-0.0217,0.0812
+2025-02-09,US,electronics,computers,laptops,0.1377,-0.1362,-0.1918,1.6519,-0.2675,-0.1165
+2025-02-09,US,toys & games,toys,educational toys,0.1373,-0.0131,-0.7801,0.0717,-0.1151,-0.7562
+2025-02-09,US,hardware,plumbing,plumbing fixture hardware & parts,0.1327,0.1797,0.3232,0.1924,0.1161,0.1263
+2025-02-09,US,hardware,building consumables,hardware tape,0.1309,-0.1652,-0.0992,0.1704,-0.1188,-0.304
+2025-02-09,US,electronics,computers,tablet computers,0.1308,-0.1865,-0.2673,0.0475,-0.3729,-0.6107
+2025-02-09,US,furniture,outdoor furniture,outdoor seating,0.1286,-0.0893,0.2357,0.2655,-0.0176,0.3189
+2025-02-09,US,luggage & bags,luggage accessories,packing organizers,0.1266,0.0298,-0.1879,0.5453,0.1945,-0.2721
+2025-02-09,US,furniture,beds & accessories,mattresses,0.126,0.0848,-0.0139,0.2191,0.1318,-0.0048
+2025-02-09,US,animals & pet supplies,pet supplies,small animal supplies,0.1186,-0.126,0.0204,0.1371,-0.3387,-0.2152
+2025-02-09,US,media,dvds & videos,film & television dvds,0.1172,-0.0506,-0.1936,-0.0804,-0.069,-0.1853
+2025-02-09,US,apparel & accessories,clothing accessories,gloves & mittens,0.111,-0.084,-0.2765,0.1638,-0.0864,-0.3871
+2025-02-09,US,sporting goods,exercise & fitness,exercise & fitness,0.1102,-0.2089,-0.4242,-0.0439,-0.3183,-0.548
+2025-02-09,US,apparel & accessories,clothing,dresses,0.1069,0.0507,-0.16,0.157,0.0421,-0.2328
+2025-02-09,US,apparel & accessories,clothing,pants,0.1058,-0.04,-0.2285,0.1837,-0.0374,-0.2675
+2025-02-09,US,home & garden,household appliances,vacuums,0.1038,-0.1333,-0.2439,0.0892,-0.0548,-0.3433
+2025-02-09,US,home & garden,linens & bedding,towels,0.1029,-0.0255,-0.16,0.2351,-0.0054,-0.2669
+2025-02-09,US,hardware,tools,ladders & scaffolding,0.1002,0.0069,0.0166,0.265,0.0869,-0.1783
+2025-02-09,US,home & garden,business & home security,home alarm systems,0.0993,-0.0464,0.166,0.0857,-0.0554,0.2872
+2025-02-09,US,apparel & accessories,clothing,skirts,0.0987,-0.0767,-0.0442,0.1315,-0.1323,-0.1207
+2025-02-09,US,animals & pet supplies,pet supplies,bird supplies,0.0953,-0.174,0.0526,0.1422,-0.415,-0.1162
+2025-02-09,US,home & garden,kitchen & dining,food storage,0.0945,0.0417,-0.2329,0.4398,0.0221,-0.4086
+2025-02-09,US,media,product manuals,vehicle service manuals,0.0945,0.097,-0.0337,-0.005,0.0804,0.01
+2025-02-09,US,home & garden,household supplies,waste containment,0.0911,-0.0397,-0.0171,0.2355,0.0072,-0.1137
+2025-02-09,US,animals & pet supplies,pet supplies,fish supplies,0.0901,-0.1727,0.0205,0.1636,-0.3359,0.011
+2025-02-09,UK,software,computer software,educational software,0.0891,-0.2096,0.1469,0.1434,-0.5425,0.1046
+2025-02-09,US,sporting goods,athletics,basketball,0.0882,0.0234,-0.671,0.16,0.0426,-0.6617
+2025-02-09,US,apparel & accessories,clothing,suits,0.0849,0.0158,-0.122,0.103,0.051,-0.2817
+2025-02-09,US,animals & pet supplies,pet supplies,pet training aids,0.0842,-0.1105,0.0078,0.414,-0.1438,-0.1929
+2025-02-09,US,sporting goods,exercise & fitness,yoga & pilates,0.0809,-0.1511,-0.4528,0.1422,-0.2164,-0.3597
+2025-02-09,US,apparel & accessories,clothing accessories,wristbands,0.0801,-0.2572,-0.0041,0.2318,-0.1602,-0.0685
+2025-02-09,US,home & garden,kitchen & dining,kitchen tools & utensils,0.0787,-0.0672,-0.2822,0.206,-0.0769,-0.447
+2025-02-09,US,apparel & accessories,jewelry,necklaces,0.075,0.0928,-0.3864,0.2695,0.1388,-0.4602
+2025-02-09,US,electronics,electronics accessories,power,0.0714,-0.109,-0.2858,0.0423,0.0804,-0.2418
+2025-02-09,US,hardware,power & electrical supplies,solar panels,0.0714,-0.0139,0.0113,-0.0175,0.0792,0.0685
+2025-02-09,US,electronics,audio,audio accessories,0.0699,0.1011,-0.1263,0.1232,0.0294,0.0229
+2025-02-09,US,home & garden,decor,decorative jars,0.0683,-0.0222,0.1811,-0.4066,0.0224,0.0787
+2025-02-09,US,home & garden,emergency preparedness,emergency preparedness,0.0618,-0.117,-0.1803,0.2304,-0.1516,-0.3288
+2025-02-09,AUSTRALIA,apparel & accessories,clothing,outerwear,0.0592,-0.0512,-0.4087,-0.0476,0.0409,-0.4642
+2025-02-09,US,apparel & accessories,clothing,activewear,0.0591,-0.0656,-0.3637,0.1181,-0.0746,-0.3695
+2025-02-09,US,apparel & accessories,clothing,shirts & tops,0.0587,-0.1222,-0.4099,0.1454,-0.1195,-0.435
+2025-02-09,AUSTRALIA,health & beauty,personal care,vision care,0.0584,0.6049,-0.3171,-0.0785,0.7034,-0.5599
+2025-02-09,US,"food, beverages & tobacco",food items,seasonings & spices,0.0574,-0.5017,-0.0736,-0.0557,0.3006,-0.3413
+2025-02-09,US,electronics,audio,audio players & recorders,0.0573,0.1289,-0.0936,0.0611,-0.1301,-0.2419
+2025-02-09,US,electronics,audio,audio components,0.057,0.153,-0.2536,0.1531,0.0465,-0.0696
+2025-02-09,US,apparel & accessories,clothing,underwear & socks,0.0538,0.0133,-0.2992,0.1876,0.0503,-0.3152
+2025-02-09,US,office supplies,filing & organization,"calendars, organizers & planners",0.0522,-0.0553,-0.457,0.5395,-0.1171,-0.396
+2025-02-09,US,health & beauty,personal care,foot care,0.0517,0.257,0.0146,0.3029,0.0955,-0.0222
+2025-02-09,US,apparel & accessories,clothing accessories,scarves & shawls,0.0516,0.0069,-0.445,0.2481,0.0167,-0.5057
+2025-02-09,US,hardware,tools,drills,0.051,-0.2134,-0.1395,0.0996,-0.132,-0.096
+2025-02-09,US,furniture,beds & accessories,beds & bed frames,0.0493,0.0011,-0.0971,0.0409,-0.0723,-0.0691
+2025-02-09,US,apparel & accessories,clothing accessories,hair accessories,0.0475,0.019,0.0029,0.0182,0.0241,-0.0199
+2025-02-09,US,apparel & accessories,clothing,sleepwear & loungewear,0.0452,-0.1173,-0.5687,0.139,-0.1057,-0.6036
+2025-02-09,US,apparel & accessories,clothing accessories,sunglasses,0.038,0.0009,-0.0517,0.0188,0.0124,-0.0912
+2025-02-09,US,home & garden,lawn & garden,outdoor power equipment accessories,0.0338,0.2278,-0.0173,0.3191,0.315,-0.1534
+2025-02-09,US,office supplies,office equipment,calculators,0.0326,-0.0702,-0.3516,0.0787,-0.0072,-0.0509
+2025-02-09,US,home & garden,household supplies,storage & organization,0.0323,0.0057,-0.1157,0.0477,-0.0294,-0.4386
+2025-02-09,US,hardware,power & electrical supplies,electrical motors,0.031,-0.0727,0.1008,0.2603,-0.0078,0.1664
+2025-02-09,UK,electronics,electronics accessories,power,0.0301,-0.2103,0.1347,-0.2155,0.0293,0.7339
+2025-02-09,US,home & garden,lawn & garden,gardening,0.0292,0.0462,-0.0171,0.2287,0.0775,0.0459
+2025-02-09,US,health & beauty,personal care,hair care,0.029,-0.0082,-0.2971,0.2562,-0.0016,-0.3052
+2025-02-09,US,hardware,building consumables,painting consumables,0.0251,-0.0791,0.1402,0.1705,-0.0417,-0.0133
+2025-02-09,US,health & beauty,personal care,cosmetics,0.025,-0.0644,-0.2616,0.2171,-0.0658,-0.2846
+2025-02-09,US,home & garden,linens & bedding,bedding,0.0237,-0.0458,-0.2472,0.0348,0.0401,-0.2682
+2025-02-09,US,home & garden,decor,clocks,0.022,0.0218,-0.0478,-0.0226,0.0201,-0.1264
+2025-02-09,UK,health & beauty,personal care,personal care,0.0215,-0.0492,-0.2636,-0.0164,-0.0107,-0.2975
+2025-02-09,US,cameras & optics,camera & optic accessories,camera & video camera lenses,0.0203,-0.0939,-0.1437,0.1063,-0.0992,-0.1003
+2025-02-09,US,sporting goods,outdoor recreation,cycling,0.0195,-0.2679,-0.3055,-0.0099,-0.0267,-0.2494
+2025-02-09,US,apparel & accessories,clothing,baby & toddler clothing,0.0194,-0.1814,-0.4489,0.172,-0.1847,-0.55
+2025-02-09,US,furniture,cabinets & storage,vanities,0.0189,-0.1885,0.4727,-0.1895,-0.2401,0.2078
+2025-02-09,AUSTRALIA,software,computer software,multimedia & design software,0.0181,-0.103,-0.0048,0.5385,-0.2153,0.7377
+2025-02-09,US,home & garden,kitchen & dining,cookware & bakeware,0.012,-0.0338,-0.4286,0.1116,0.0435,-0.6393
+2025-02-09,US,media,music & sound recordings,music cds,0.0114,-0.0791,-0.0822,-0.001,0.0079,-0.1879
+2025-02-09,US,health & beauty,personal care,feminine sanitary supplies,0.0111,-0.119,0.1992,0.1866,0.1976,0.3642
+2025-02-09,US,vehicles & parts,vehicle parts & accessories,vehicle safety & security,0.0106,0.1234,0.1005,-0.0659,0.0925,0.0863
+2025-02-09,US,electronics,electronics accessories,computer components,0.0095,-0.0104,-0.0799,0.0801,-0.0714,0.0224
+2025-02-09,US,furniture,tables,accent tables,0.0079,-0.0391,-0.142,0.2791,0.0437,-0.1017
+2025-02-09,US,home & garden,decor,artificial flora,0.0042,-0.1839,-0.4048,0.3523,-0.0807,-0.4104
+2025-02-09,US,office supplies,office instruments,writing & drawing instruments,0.0039,-0.0806,-0.1061,0.0975,-0.0391,-0.3155
+2025-02-09,US,sporting goods,athletics,boxing & martial arts,0.0007,-0.1174,-0.4191,0.2286,-0.1468,-0.4006
+2025-02-09,US,apparel & accessories,clothing,outerwear,0.0003,-0.1187,-0.4054,0.0792,-0.1365,-0.4355
+2025-02-09,AUSTRALIA,arts & entertainment,party & celebration,gift giving,-0.0003,0.0258,-0.6096,-0.1456,-0.1273,-0.5904
+2025-02-09,US,media,music & sound recordings,records & lps,-0.002,-0.1692,-0.1396,-0.0368,-0.3614,0.0335
+2025-02-09,US,hardware,building materials,doors,-0.0088,-0.2063,0.0925,0.3738,-0.2324,-0.1345
+2025-02-09,US,sporting goods,athletics,baseball & softball,-0.0124,-0.2182,-0.1308,0.0352,-0.2631,-0.2695
+2025-02-09,US,sporting goods,indoor games,throwing darts,-0.0129,0.0565,-0.1068,-0.0937,-0.0094,-0.3434
+2025-02-09,US,sporting goods,outdoor recreation,golf,-0.0144,0.0327,-0.2522,0.0635,0.0682,-0.3843
+2025-02-09,US,home & garden,decor,baskets,-0.0145,0.0243,0,-0.0088,0.0245,0.0448
+2025-02-09,US,toys & games,toys,play vehicles,-0.0149,-0.0161,-0.5271,0.2918,-0.0176,-0.6614
+2025-02-09,US,hardware,hardware accessories,"hooks, buckles & fasteners",-0.0154,0.1695,-0.0446,-0.0167,0.0923,-0.1954
+2025-02-09,US,hardware,tools,tool sets,-0.0165,-0.036,-0.2385,-0.0047,-0.0343,-0.3104
+2025-02-09,US,electronics,video game console accessories,portable game console accessories,-0.0172,-0.155,-0.1296,0.0176,-0.1799,-0.1968
+2025-02-09,US,health & beauty,personal care,massage & relaxation,-0.0176,0.0056,-0.5416,0.1207,0.0285,-0.5053
+2025-02-09,US,arts & entertainment,hobbies & creative arts,musical instrument & orchestra accessories,-0.0186,-0.0284,0.0043,-0.0104,0.004,0.0144
+2025-02-09,US,home & garden,decor,chair & sofa cushions,-0.0192,0.1051,-0.0318,0.1825,0.3646,-0.1689
+2025-02-09,US,media,books,e-books,-0.0215,-0.0508,-0.0428,-0.0268,-0.156,-0.0411
+2025-02-09,US,home & garden,lighting,night lights & ambient lighting,-0.0227,-0.1094,0.0104,-0.071,-0.1102,-0.1343
+2025-02-09,US,health & beauty,health care,medical tests,-0.0261,0.0608,-0.1125,-0.3673,0.0653,-0.4533
+2025-02-09,US,vehicles & parts,vehicle parts & accessories,motor vehicle parts,-0.0273,-0.0121,0.1344,0.0428,0.0218,0.2116
+2025-02-09,US,hardware,tools,measuring tools & sensors,-0.0318,-0.0982,0.0088,0.0747,-0.056,-0.014
+2025-02-09,US,hardware,tools,lighters & matches,-0.032,-0.1053,0.127,0.0048,-0.1395,0.0954
+2025-02-09,US,"food, beverages & tobacco",food items,food gift baskets,-0.0344,0.1405,-0.6385,0.1751,0.3666,-0.756
+2025-02-09,US,business & industrial,material handling,lifts & hoists,-0.0351,-0.0221,0.0486,-0.1004,0.013,-0.002
+2025-02-09,US,hardware,hardware accessories,tool storage & organization,-0.0354,-0.1887,-0.2155,0.1983,-0.2219,-0.346
+2025-02-09,US,health & beauty,health care,biometric monitors,-0.0406,-0.0347,-0.338,0.025,-0.003,-0.2189
+2025-02-09,US,sporting goods,outdoor recreation,boating & water sports,-0.0415,0.0191,-0.0825,0.3355,-0.0102,-0.1844
+2025-02-09,US,hardware,tools,paint tools,-0.0415,0.0557,0.0402,0.0399,0.0497,0.0294
+2025-02-09,US,arts & entertainment,party & celebration,party supplies,-0.0434,-0.0458,-0.2851,0.0432,-0.0192,-0.3846
+2025-02-09,US,home & garden,household appliances,laundry appliances,-0.045,-0.1717,-0.0048,-0.1059,-0.1857,-0.1686
+2025-02-09,US,animals & pet supplies,pet supplies,pet grooming supplies,-0.0461,-0.0805,0.0219,-0.0338,-0.1323,-0.0535
+2025-02-09,UK,media,books,e-books,-0.0463,0.0584,-0.4314,0.3081,0.2203,-0.3227
+2025-02-09,US,home & garden,kitchen & dining,kitchen appliances,-0.0465,-0.0743,-0.2754,0.0725,-0.013,-0.5317
+2025-02-09,US,home & garden,decor,throw pillows,-0.0479,-0.0267,-0.3331,0.0916,0.012,-0.3342
+2025-02-09,US,hardware,tools,tools,-0.049,-0.1337,-0.2757,0.0277,-0.2092,-0.5485
+2025-02-09,US,animals & pet supplies,pet supplies,pet carriers & crates,-0.05,-0.0844,0.3774,-0.0596,-0.1675,0.5581
+2025-02-09,US,arts & entertainment,hobbies & creative arts,collectibles,-0.0523,-0.0815,-0.0617,0.0691,-0.0535,0.0095
+2025-02-09,US,home & garden,decor,home fragrances,-0.0525,0.0049,-0.2558,0.2571,0.1203,-0.4753
+2025-02-09,US,luggage & bags,backpacks,backpacks,-0.0545,-0.0694,-0.3565,0.4164,-0.1669,-0.394
+2025-02-09,US,home & garden,household supplies,laundry supplies,-0.055,-0.0334,-0.0059,0.2754,0.0149,0.0368
+2025-02-09,US,baby & toddler,nursing & feeding,nursing pads & shields,-0.0581,-0.0105,0.0306,-0.0397,-0.2785,-0.6641
+2025-02-09,US,baby & toddler,baby toys & activity equipment,baby activity toys,-0.0592,0.0078,-0.2404,-0.1565,0.0474,-0.2448
+2025-02-09,US,electronics,electronics accessories,cables,-0.0594,-0.0072,0.0502,0.0898,-0.0808,0.019
+2025-02-09,US,home & garden,lighting,light bulbs,-0.0613,-0.0622,-0.1441,0.2019,0.2606,-0.226
+2025-02-09,UK,electronics,electronics accessories,computer accessories,-0.0618,-0.165,0.2026,0.0834,0.0735,0.233
+2025-02-09,US,home & garden,lighting,light ropes & strings,-0.0648,-0.1046,-0.3222,-0.0791,-0.0544,-0.222
+2025-02-09,US,health & beauty,health care,first aid,-0.067,-0.0343,0.0335,0.1343,0.0824,-0.1414
+2025-02-09,US,home & garden,household supplies,household cleaning supplies,-0.0689,-0.0807,-0.0065,0.1299,0.0007,-0.0346
+2025-02-09,US,apparel & accessories,jewelry,jewelry,-0.0689,-0.0027,-0.712,-0.091,0.0133,-0.7827
+2025-02-09,US,health & beauty,health care,mobility & accessibility,-0.075,-0.1518,-0.2069,-0.1849,0.0224,-0.2507
+2025-02-09,US,office supplies,filing & organization,desk organizers,-0.077,0.0096,-0.0212,0.0124,-0.0452,-0.0173
+2025-02-09,UK,home & garden,decor,home fragrances,-0.0829,-0.0634,-0.027,0.2375,0.0749,-0.0378
+2025-02-09,US,"food, beverages & tobacco",food items,"grains, rice & cereal",-0.0829,-0.512,0.0065,-0.2644,0.218,-0.059
+2025-02-09,US,electronics,video,computer monitors,-0.0838,-0.0443,-0.3019,0.1948,-0.1792,-0.3936
+2025-02-09,US,hardware,power & electrical supplies,solar energy kits,-0.0869,0.7326,0.6917,-0.2696,1.0677,0.5961
+2025-02-09,UK,software,video game software,video game software,-0.0898,-0.2138,0.1026,-0.0448,-0.0472,0.2081
+2025-02-09,US,animals & pet supplies,pet supplies,pet flea & tick control,-0.093,-0.1341,-0.0663,-0.1186,-0.432,-0.1898
+2025-02-09,US,office supplies,general office supplies,paper products,-0.093,-0.1331,-0.1258,0.0711,-0.053,-0.2097
+2025-02-09,US,apparel & accessories,clothing,shorts,-0.0931,0.0791,-0.1653,-0.0632,0.1186,-0.1873
+2025-02-09,US,business & industrial,medical,medical supplies,-0.0938,0.0357,0.0661,-0.2074,0.3591,-0.0921
+2025-02-09,US,apparel & accessories,shoes,shoes,-0.094,0.0247,-0.4394,0.1046,-0.0022,-0.4768
+2025-02-09,US,electronics,communications,telephony,-0.0945,0.0445,-0.2141,-0.1428,-0.022,-0.1334
+2025-02-09,US,home & garden,kitchen & dining,food & beverage carriers,-0.0947,-0.0023,-0.2243,0.1659,0.0051,-0.4106
+2025-02-09,US,home & garden,household appliances,climate control appliances,-0.095,0.0038,0.0214,-0.2186,0.0146,-0.0359
+2025-02-09,AUSTRALIA,software,computer software,educational software,-0.0966,0.2658,1.0522,0.1009,0.1971,0.0236
+2025-02-09,US,sporting goods,athletics,tennis,-0.1013,0.0958,-0.5475,-0.0712,-0.0292,-0.5502
+2025-02-09,US,health & beauty,personal care,vision care,-0.1027,-0.0534,-0.0958,-0.0572,-0.1352,-0.3918
+2025-02-09,US,home & garden,kitchen & dining,kitchen & dining,-0.1039,-0.0424,-0.5245,-0.1061,0.2279,-0.7723
+2025-02-09,US,arts & entertainment,hobbies & creative arts,musical instruments,-0.104,-0.0577,-0.111,-0.0729,-0.0398,-0.1696
+2025-02-09,US,electronics,electronics accessories,memory,-0.106,0.0027,0.0045,-0.0836,-0.0059,0.0234
+2025-02-09,US,home & garden,decor,door mats,-0.1064,-0.0838,0.1727,-0.2885,-0.0515,0.1338
+2025-02-09,US,health & beauty,personal care,shaving & grooming,-0.1072,-0.1223,-0.2969,0.0843,-0.1824,-0.4043
+2025-02-09,US,baby & toddler,nursing & feeding,baby & toddler food,-0.108,-0.2106,-0.022,0.1639,-0.5226,-0.1586
+2025-02-09,US,sporting goods,exercise & fitness,cardio,-0.1082,-0.0656,-0.1655,0.179,-0.2117,-0.3594
+2025-02-09,US,vehicles & parts,vehicle parts & accessories,vehicle storage & cargo,-0.1096,0.1274,0.0083,-0.2162,0.0308,-0.1168
+2025-02-09,US,"food, beverages & tobacco",food items,prepared foods,-0.1097,-0.322,0.0714,0.1614,0.1825,-0.2174
+2025-02-09,US,"food, beverages & tobacco",beverages,alcoholic beverages,-0.1098,-0.4004,-0.2627,0.1728,0.041,-0.4599
+2025-02-09,US,software,video game software,video game software,-0.1103,-0.0554,-0.5149,-0.1284,-0.0385,-0.2252
+2025-02-09,US,animals & pet supplies,pet supplies,cat supplies,-0.1106,-0.1928,-0.0366,-0.0541,-0.4393,-0.2306
+2025-02-09,US,"food, beverages & tobacco",food items,dips & spreads,-0.1121,0.1807,-0.0269,-0.0059,0.2612,-0.0614
+2025-02-09,US,baby & toddler,baby gift sets,baby gift sets,-0.1129,0.01,0.0167,-0.2108,0.1152,-0.4433
+2025-02-09,US,"food, beverages & tobacco",food items,fruits & vegetables,-0.1146,-0.1001,-0.1918,-0.0724,0.0963,-0.4883
+2025-02-09,US,electronics,"print, copy, scan & fax","printer, copier & fax machine accessories",-0.115,0.0315,-0.0066,-0.1756,-0.0856,0.0114
+2025-02-09,US,mature,erotic,sex toys,-0.1171,0.1658,-0.278,-0.0481,0.3704,-0.284
+2025-02-09,US,baby & toddler,baby transport,baby strollers,-0.1201,-0.0381,-0.0161,-0.1864,-0.0662,-0.0861
+2025-02-09,US,hardware,tools,soldering irons,-0.1204,-0.0183,-0.2436,0.2245,0.0522,-0.348
+2025-02-09,US,"food, beverages & tobacco",beverages,juice,-0.1211,0.0158,-0.0106,0.4861,-0.0199,-0.0356
+2025-02-09,US,home & garden,kitchen & dining,tableware,-0.1217,-0.0567,-0.2642,-0.0202,-0.0247,-0.3944
+2025-02-09,US,electronics,"print, copy, scan & fax","printers, copiers & fax machines",-0.1218,-0.0101,-0.0306,-0.0343,-0.2094,0.0934
+2025-02-09,US,health & beauty,health care,fitness & nutrition,-0.1222,-0.0713,0.0654,0.1087,-0.0415,-0.0611
+2025-02-09,US,hardware,tools,saws,-0.1244,0.0783,-0.0572,-0.1224,0.079,-0.0335
+2025-02-09,US,electronics,video,projectors,-0.1258,-0.1027,-0.1121,-0.0758,0.0497,-0.1865
+2025-02-09,US,hardware,hardware accessories,hardware fasteners,-0.129,-0.054,0.0399,-0.2203,-0.0662,-0.0971
+2025-02-09,US,animals & pet supplies,pet supplies,pet supplies,-0.1308,-0.2247,-0.1106,-0.1199,-0.1618,-0.2439
+2025-02-09,US,"food, beverages & tobacco",beverages,coffee,-0.1308,-0.331,-0.0962,-0.0507,-0.0083,-0.2022
+2025-02-09,US,home & garden,decor,decor,-0.1311,-0.0402,-0.4884,-0.112,0.086,-0.7018
+2025-02-09,US,software,computer software,multimedia & design software,-0.1336,-0.133,0.0232,-0.0356,0.098,0.0036
+2025-02-09,US,home & garden,lighting,lighting,-0.1339,-0.0546,-0.5748,-0.0972,0.0767,-0.7164
+2025-02-09,US,electronics,video,televisions,-0.1359,0.1593,-0.26,-0.113,-0.047,-0.5543
+2025-02-09,US,cameras & optics,cameras,digital cameras,-0.1363,0.7905,-0.2937,-0.0683,-0.1069,-0.5633
+2025-02-09,US,"food, beverages & tobacco",beverages,tea & infusions,-0.1385,0.0507,-0.0841,0.1141,0.1809,-0.2566
+2025-02-09,US,baby & toddler,diapering,diapers,-0.1392,0.0013,0.1221,-0.0525,-0.1409,-0.5475
+2025-02-09,US,"food, beverages & tobacco",food items,pasta & noodles,-0.1403,0.0357,0.0808,-0.0891,0.0615,0.1034
+2025-02-09,US,electronics,computers,desktop computers,-0.1418,-0.2518,-0.2715,0.4363,-0.3293,-0.1967
+2025-02-09,US,furniture,entertainment centers & tv stands,entertainment centers & tv stands,-0.142,-0.0994,-0.3178,-0.1363,0.0351,-0.5758
+2025-02-09,US,vehicles & parts,vehicle parts & accessories,"vehicle maintenance, care & decor",-0.1435,-0.0107,0.0022,-0.0636,-0.0075,-0.1685
+2025-02-09,US,luggage & bags,luggage & bags,luggage & bags,-0.1445,-0.3252,-0.3999,-0.1052,-0.1488,-0.6221
+2025-02-09,US,baby & toddler,baby transport accessories,baby & toddler car seat accessories,-0.1446,-0.3473,0.586,-0.1231,-0.3853,0.5174
+2025-02-09,US,apparel & accessories,jewelry,rings,-0.1447,0.1306,-0.1478,0.1609,0.0784,-0.1575
+2025-02-09,US,health & beauty,health care,incontinence aids,-0.1475,-0.146,-0.0883,-0.3931,-0.1744,-0.3938
+2025-02-09,US,health & beauty,personal care,personal care,-0.1514,-0.0091,-0.4565,-0.0098,0.2281,-0.6703
+2025-02-09,US,baby & toddler,baby toys & activity equipment,baby bouncers & rockers,-0.1546,-0.0574,0.1215,-0.1879,-0.0876,0.0751
+2025-02-09,AUSTRALIA,home & garden,household supplies,household cleaning supplies,-0.155,0.2167,0.0102,0.052,0.1526,-0.2877
+2025-02-09,US,home & garden,business & home security,security safes,-0.1571,-0.0651,-0.0192,-0.1636,-0.071,-0.1351
+2025-02-09,US,hardware,plumbing,water dispensing & filtration,-0.1572,-0.0078,-0.0399,-0.1891,-0.0005,-0.2517
+2025-02-09,US,hardware,building materials,door hardware,-0.1579,-0.0713,0.1793,-0.0179,-0.0913,0.0919
+2025-02-09,US,furniture,cabinets & storage,file cabinets,-0.1623,-0.4958,0.9768,-0.2095,-0.0804,0.4758
+2025-02-09,US,hardware,building materials,flooring & carpet,-0.1624,-0.0945,0.1428,-0.08,-0.1318,-0.0426
+2025-02-09,US,"food, beverages & tobacco",beverages,sports & energy drinks,-0.165,0.0056,-0.0141,-0.0001,-0.0029,-0.2339
+2025-02-09,US,electronics,electronics accessories,electronics accessories,-0.1654,-0.1374,-0.3711,-0.5016,-0.3967,-0.4208
+2025-02-09,US,electronics,electronics,electronics,-0.166,-0.0242,-0.4403,0.0462,-0.0329,-0.6337
+2025-02-09,US,business & industrial,food service,disposable tableware,-0.1664,0.0223,-0.179,-0.0033,0.0443,-0.3043
+2025-02-09,US,electronics,video,video accessories,-0.1702,-0.0826,-0.3471,-0.2196,-0.0252,-0.4024
+2025-02-09,UK,animals & pet supplies,pet supplies,dog supplies,-0.1704,-0.0732,0.1099,-0.1742,-0.1143,0.0569
+2025-02-09,US,sporting goods,outdoor recreation,hunting & shooting,-0.1708,0.0346,-0.128,0.2447,0.049,-0.2539
+2025-02-09,US,animals & pet supplies,pet supplies,dog supplies,-0.1721,-0.1654,-0.0455,-0.0499,-0.5073,-0.2439
+2025-02-09,US,health & beauty,personal care,deodorant & anti-perspirant,-0.174,-0.1262,-0.1384,-0.1225,-0.2306,-0.4738
+2025-02-09,US,health & beauty,personal care,oral care,-0.175,-0.1035,-0.2178,-0.2821,-0.0755,-0.213
+2025-02-09,UK,mature,erotic,sex toys,-0.1752,0.6095,0.113,-0.2965,0.9767,0.1486
+2025-02-09,US,baby & toddler,baby health,baby health,-0.1768,0.0214,0.2381,-0.2254,-0.1636,0.0175
+2025-02-09,US,home & garden,home & garden,home & garden,-0.1769,-0.0236,-0.4345,-0.1619,0.1553,-0.6748
+2025-02-09,US,sporting goods,outdoor recreation,camping & hiking,-0.178,-0.0576,-0.0056,0.2425,-0.034,-0.2491
+2025-02-09,US,baby & toddler,nursing & feeding,nursing & feeding,-0.1801,-0.1155,0.1308,-0.2438,-0.1851,0.1095
+2025-02-09,US,baby & toddler,nursing & feeding,bibs,-0.1802,-0.0477,0.0222,-0.2001,-0.2322,-0.6329
+2025-02-09,US,sporting goods,exercise & fitness,weight lifting,-0.1813,-0.2422,-0.594,-0.3049,-0.2951,-0.6269
+2025-02-09,US,baby & toddler,baby transport,baby & toddler car seats,-0.1835,-0.273,0.155,-0.1292,-0.2246,0.0142
+2025-02-09,US,toys & games,toys,riding toys,-0.1914,-0.2536,-0.8019,-0.0771,-0.2012,-0.8877
+2025-02-09,US,"food, beverages & tobacco",food items,condiments & sauces,-0.1959,-0.2016,-0.0837,-0.0895,0.1401,-0.2847
+2025-02-09,US,"food, beverages & tobacco",food items,dairy products,-0.2034,-0.0124,-0.0714,-0.1569,0.0557,0.0986
+2025-02-09,US,home & garden,household supplies,household paper products,-0.2051,-0.0449,-0.0903,-0.0236,-0.0034,-0.2092
+2025-02-09,UK,vehicles & parts,vehicle parts & accessories,motor vehicle parts,-0.2054,-0.3268,-0.0423,0.1616,-0.1665,-0.0396
+2025-02-09,US,health & beauty,health & beauty,health & beauty,-0.2061,-0.0208,-0.2154,-0.2357,0.0983,-0.4993
+2025-02-09,US,home & garden,linens & bedding,table linens,-0.2062,-0.0032,-0.5318,-0.2375,0.0417,-0.7273
+2025-02-09,US,software,computer software,educational software,-0.2074,-0.0555,-0.066,-0.047,-0.0011,-0.0266
+2025-02-09,US,cameras & optics,cameras,video cameras,-0.2081,0.1088,-0.5424,0.3279,0.148,-0.5501
+2025-02-09,US,"food, beverages & tobacco",food items,soups & broths,-0.2111,-0.1367,0.0037,-0.4619,-0.2147,-0.0687
+2025-02-09,US,"food, beverages & tobacco",food items,snack foods,-0.2113,-0.0125,-0.0847,-0.0307,0.0469,-0.1191
+2025-02-09,US,toys & games,toys,"dolls, playsets & toy figures",-0.2123,-0.0223,-0.8155,-0.1928,-0.1605,-0.8325
+2025-02-09,US,"food, beverages & tobacco",food items,food items,-0.213,0.1035,-0.7003,-0.1894,0.3496,-0.9564
+2025-02-09,US,"food, beverages & tobacco",beverages,water,-0.213,0.0436,0.0881,-0.1719,0.1219,0.0404
+2025-02-09,US,sporting goods,outdoor recreation,equestrian,-0.2155,0.0071,-0.0227,-0.4108,-0.3009,-0.034
+2025-02-09,US,baby & toddler,baby transport accessories,baby stroller accessories,-0.2157,-0.1542,0.4566,-0.3115,-0.1301,0.3843
+2025-02-09,US,vehicles & parts,vehicle parts & accessories,motor vehicle electronics,-0.2169,0.0042,-0.3391,-0.1803,-0.1047,-0.48
+2025-02-09,US,"food, beverages & tobacco",beverages,milk,-0.2206,-0.4597,-0.0618,-0.1806,-0.1007,-0.5459
+2025-02-09,US,toys & games,toys,building toys,-0.2269,0.0543,-0.8492,-0.2582,-0.0397,-0.9189
+2025-02-09,US,home & garden,bathroom accessories,bath mats & rugs,-0.2277,-0.1017,0.0606,-0.1938,-0.1422,0.0104
+2025-02-09,US,apparel & accessories,jewelry,charms & pendants,-0.2278,-0.1702,-0.51,-0.0818,-0.104,-0.6468
+2025-02-09,US,health & beauty,jewelry cleaning & care,jewelry holders,-0.2293,0.0563,-0.3812,-0.0686,0.0885,-0.4233
+2025-02-09,US,software,software,software,-0.2295,-0.605,0.0641,-0.0707,-0.5817,-0.1086
+2025-02-09,US,hardware,tools,screwdrivers,-0.2317,0.0202,-0.307,-0.2573,-0.0331,-0.4014
+2025-02-09,US,"food, beverages & tobacco",food items,cooking & baking ingredients,-0.2327,-0.0301,-0.1687,0.1432,0.1929,-0.4048
+2025-02-09,US,hardware,plumbing,plumbing fixtures,-0.2329,0.0206,0.3056,-0.2091,-0.0051,0.0278
+2025-02-09,US,furniture,baby & toddler furniture,cribs & toddler beds,-0.2335,-0.028,0.26,-0.2382,-0.0139,0.2704
+2025-02-09,US,"food, beverages & tobacco",food items,bakery,-0.2393,0.0084,-0.1491,-0.192,0.1562,-0.4141
+2025-02-09,US,furniture,baby & toddler furniture,high chairs & booster seats,-0.2468,0.0569,0.0231,-0.3578,0.0449,0.0405
+2025-02-09,US,business & industrial,agriculture,animal husbandry,-0.2495,-0.022,-0.0091,-0.2364,-0.0198,-0.0702
+2025-02-09,US,sporting goods,outdoor recreation,hydration systems,-0.256,-0.4247,-0.3196,0.1197,-0.1389,-0.4808
+2025-02-09,US,home & garden,household appliances,floor & steam cleaners,-0.2574,0.3205,-0.4569,-0.4317,0.3416,-0.4654
+2025-02-09,US,"food, beverages & tobacco",food items,frozen desserts & novelties,-0.2576,0.1433,0.0737,-0.2732,0.22,-0.2035
+2025-02-09,US,"food, beverages & tobacco",food items,"meat, seafood & eggs",-0.2581,0.0001,-0.1094,0.0467,-0.3179,-0.1436
+2025-02-09,US,home & garden,lighting,lighting fixtures,-0.2638,-0.1173,0.1309,-0.2375,-0.0927,0.1854
+2025-02-09,US,apparel & accessories,"handbags, wallets & cases","handbags, wallets & cases",-0.2648,0.0428,-0.641,-0.2771,-0.0782,-0.6939
+2025-02-09,US,home & garden,lighting,lamps,-0.2696,0.0114,-0.0684,-0.243,-0.0242,-0.0648
+2025-02-09,US,luggage & bags,duffel bags,duffel bags,-0.2759,0.0743,-0.4197,-0.1328,0.1388,-0.4722
+2025-02-09,US,cameras & optics,cameras,surveillance cameras,-0.2798,0.1482,-0.1612,-0.14,0.0292,-0.2321
+2025-02-09,US,hardware,power & electrical supplies,power outlets & sockets,-0.2805,-0.0633,-0.0629,-0.386,-0.0446,-0.139
+2025-02-09,US,apparel & accessories,apparel & accessories,apparel & accessories,-0.2864,0.266,-0.5319,-0.1474,0.6712,-0.4961
+2025-02-09,US,baby & toddler,diapering,baby wipes,-0.2958,0.0399,0.2743,-0.1923,-0.3338,-0.0312
+2025-02-09,US,baby & toddler,nursing & feeding,baby bottles,-0.2964,0.0638,0.3592,-0.2603,0.0266,0.3257
+2025-02-09,US,hardware,power & electrical supplies,electrical switches,-0.3029,-0.2216,0.1976,-0.2944,-0.0925,0.0647
+2025-02-09,US,furniture,office furniture,office chairs,-0.3145,0.0534,-0.2007,-0.4288,0.0813,-0.2214
+2025-02-09,US,furniture,cabinets & storage,dressers,-0.3383,0.0044,-0.0884,-0.3767,0.0829,-0.0815
+2025-02-09,AUSTRALIA,"food, beverages & tobacco",food items,snack foods,-0.3405,0.0006,-0.0278,-0.4191,-0.1208,-0.4596
+2025-02-09,AUSTRALIA,media,books,e-books,-0.3638,0.7695,0.1499,-0.7516,0.6448,-0.2474
+2025-02-09,AUSTRALIA,"food, beverages & tobacco",food items,bakery,-0.3652,-0.2099,0.148,-0.4194,-0.2119,-0.7015
+2025-02-09,AUSTRALIA,"food, beverages & tobacco",food items,"meat, seafood & eggs",-0.3735,0.3429,0.8066,-0.4084,0.2964,-0.0387
+2025-02-09,US,electronics,video game consoles,video game consoles,-0.3984,0.059,-0.7718,-0.5717,-0.2043,-0.7826
+2025-02-09,US,"food, beverages & tobacco",beverages,soda,-0.4055,-0.1067,-0.1178,-0.3621,-0.0115,-0.353
+2025-02-09,US,apparel & accessories,jewelry,bracelets,-0.4094,0.8311,-0.3929,-0.2727,0.4465,-0.5454
+2025-02-09,US,"food, beverages & tobacco",food items,candy & chocolate,-0.4192,0.3121,-0.3488,-0.4079,0.2448,-0.1875
+2025-02-09,US,electronics,video game console accessories,home game console accessories,-0.4372,0.045,-0.4881,-0.4285,-0.0588,-0.571
+2025-02-09,US,apparel & accessories,clothing accessories,neckties,-0.5205,0.1205,-0.5423,-0.5179,0.2538,-0.5859
+2025-02-09,US,health & beauty,personal care,sleeping aids,-0.5339,0.3172,-0.0042,-0.5762,0.932,0.1781
+2025-02-09,US,toys & games,toys,pretend play,-0.5913,-0.0673,-0.8521,-0.646,-0.0309,-0.8606

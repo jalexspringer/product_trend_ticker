@@ -1,0 +1,45 @@
+<div class="ticker h-full flex items-center">
+    {% for trend in trends %}
+        <span class="ticker-item">
+            <div class="ticker-header relative">
+                {{ trend.product_category_level_1 }} - {{ trend.product_category_level_2 }}
+                <span class="absolute top-0 right-0">
+                    {% if trend.campaign_country == 'AUSTRALIA' %}AU 🇦🇺
+                    {% elif trend.campaign_country == 'US' %}US 🇺🇸
+                    {% elif trend.campaign_country == 'UK' %}UK 🇬🇧
+                    {% else %}{{ trend.campaign_country }}
+                    {% endif %}
+                </span>
+            </div>
+            <div class="ticker-subheader">
+               {{ trend.product_category_level_3 }}
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-cell">
+                    <span class="label">24h Rev</span>
+                    <span class="value {% if trend.revenue_daily_change > 0 %}positive{% elif trend.revenue_daily_change < 0 %}negative{% endif %}">
+                        {{ "%.2f"|format(trend.revenue_daily_change * 100) }}%
+                    </span>
+                </div>
+                <div class="metric-cell">
+                    <span class="label">7d Rev</span>
+                    <span class="value {% if trend.revenue_weekly_change > 0 %}positive{% elif trend.revenue_weekly_change < 0 %}negative{% endif %}">
+                        {{ "%.2f"|format(trend.revenue_weekly_change * 100) }}%
+                    </span>
+                </div>
+                <div class="metric-cell">
+                    <span class="label">24h Com</span>
+                    <span class="value {% if trend.commission_daily_change > 0 %}positive{% elif trend.commission_daily_change < 0 %}negative{% endif %}">
+                        {{ "%.2f"|format(trend.commission_daily_change * 100) }}%
+                    </span>
+                </div>
+                <div class="metric-cell">
+                    <span class="label">7d Com</span>
+                    <span class="value {% if trend.commission_weekly_change > 0 %}positive{% elif trend.commission_weekly_change < 0 %}negative{% endif %}">
+                        {{ "%.2f"|format(trend.commission_weekly_change * 100) }}%
+                    </span>
+                </div>
+            </div>
+        </span>
+    {% endfor %}
+</div>
