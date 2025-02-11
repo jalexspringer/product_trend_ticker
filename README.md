@@ -1,5 +1,8 @@
 # Product Trend Analytics Dashboard
 
+![gh actions](https://github.com/jalexspringer/product_trend_ticker/actions/workflows/ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/jalexspringer/product_trend_ticker/graph/badge.svg?token=GY1ZiBYGxj)](https://codecov.io/gh/jalexspringer/product_trend_ticker)
+
 A real-time analytics dashboard that tracks and visualizes product category trends across the impact.com network. Built with FastAPI and HTMX for efficient, modern web development practices.
 
 ![Homepage](img/screenshot.png)

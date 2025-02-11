@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    google_cloud_project: str = "prod-data-enablement"
+    google_cloud_project: str = "example_project"
     force_cache_refresh: bool = False
 
     # Trend filtering settings
